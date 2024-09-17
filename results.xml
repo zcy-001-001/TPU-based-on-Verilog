@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1726579676" />
+    <testcase name="test_fp16_adder" classname="tb.test_adder_fp16" file="/home/leon/MICS6000U/Assignment1/tb/test_adder_fp16.py" lineno="13" time="0.0015015602111816406" sim_time_ns="12.001" ratio_time="7992.353493807557" />
+  </testsuite>
+</testsuites>
