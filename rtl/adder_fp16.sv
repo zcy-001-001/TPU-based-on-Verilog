@@ -52,7 +52,6 @@ module adder_fp16(a, b, z);
                 mantissa_b = mantissa_b >> shift1;  // 右移较小尾数
                 ex_in1 = {1'b0, exp_a};
             end else begin
-                // shift1 = 6'b000000;  // 不需要位移
                 exp_l = {1'b0, exp_b};  // 扩展无符号
                 exp_s = {1'b0, exp_a};
                 ex_in1 = {1'b0, exp_b};
