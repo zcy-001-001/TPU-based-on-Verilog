@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1726641196" />
-    <testcase name="multiplier_fp16_test" classname="tb.test_multiplier_fp16" file="/home/leon/MICS6000U/Assignment1/tb/test_multiplier_fp16.py" lineno="17" time="0.001966714859008789" sim_time_ns="80.001" ratio_time="40677.47779173234" />
+    <property name="random_seed" value="1726641685" />
+    <testcase name="test_fp16_adder" classname="tb.test_adder_fp16" file="/home/leon/MICS6000U/Assignment1/tb/test_adder_fp16.py" lineno="13" time="0.0015633106231689453" sim_time_ns="12.001" ratio_time="7676.657359158151" />
   </testsuite>
 </testsuites>
