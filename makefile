@@ -39,17 +39,17 @@ MODULE = tb.test_multiplier_fp16
 # 	TOPLEVEL = subtractor_6bit
 # 	MODULE = tb.test_subtractor_6bit
 
-# test_adderfp16:
-# 	VERILOG_SOURCES += rtl/adder_fp16.sv
-# 	VERILOG_SOURCES += rtl/subtractor_6bit.sv
-# 	VERILOG_SOURCES += rtl/adder_6bit.sv
-# 	VERILOG_SOURCES += rtl/adder_12bit.sv
-# 	VERILOG_SOURCES += rtl/subtractor_12bit.sv
-# 	VERILOG_SOURCES += rtl/half_adder.sv
-# 	VERILOG_SOURCES += rtl/full_adder.sv
+# # test_adderfp16:
+# VERILOG_SOURCES += rtl/adder_fp16.sv
+# VERILOG_SOURCES += rtl/subtractor_6bit.sv
+# VERILOG_SOURCES += rtl/adder_6bit.sv
+# VERILOG_SOURCES += rtl/adder_12bit.sv
+# VERILOG_SOURCES += rtl/subtractor_12bit.sv
+# VERILOG_SOURCES += rtl/half_adder.sv
+# VERILOG_SOURCES += rtl/full_adder.sv
 
-# 	TOPLEVEL = adder_fp16
-# 	MODULE = tb.test_adder_fp16
+# TOPLEVEL = adder_fp16
+# MODULE = tb.test_adder_fp16
 
 
 include $(shell cocotb-config --makefiles)/Makefile.sim
