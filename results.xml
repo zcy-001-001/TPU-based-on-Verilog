@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1726641685" />
-    <testcase name="test_fp16_adder" classname="tb.test_adder_fp16" file="/home/leon/MICS6000U/Assignment1/tb/test_adder_fp16.py" lineno="13" time="0.0015633106231689453" sim_time_ns="12.001" ratio_time="7676.657359158151" />
+    <property name="random_seed" value="1731931391" />
+    <testcase name="test_tpu" classname="tb.test_tpu" file="/drive2/chenyu/Homework4/tb/test_tpu.py" lineno="480" time="0.16980648040771484" sim_time_ns="3430000.001" ratio_time="20199464.665685188" />
   </testsuite>
 </testsuites>
