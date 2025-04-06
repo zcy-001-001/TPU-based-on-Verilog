@@ -1,12 +1,6 @@
 # Report of HW4
 
-**Name**:Chenyu Zhang
 
-**SID**:50018564
-
-**email**:czhang539@connect.hkust-gz.edu.cn
-
-[TOC]
 
 ## Implementation
 My design has the following sub-modules. Below I will briefly introduce the functions implemented by different sub-modules:
